@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Movie Database(TMDBD)</title>
+    <title>ISTAD Movie</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="./Image/fav.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9dbf4bca99.js" crossorigin="anonymous"></script>
+ 
 </head>
 
 <body>
-    <header class="sticky top-0">
+    <header class="sticky top-0 z-50">
         <!-- menu Start -->
-        <nav class="sticky-top-0 bg-blue-950 border-gray-200 dark:bg-gray-900 text-white">
+        <nav    class=" bg-blue-950 border-gray-200 dark:bg-gray-900 text-white">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-3">
                 <div class="flex items-center md:order-1 px-30">
                     <a href="./index.html" class="flex items-center">
@@ -143,7 +145,7 @@
                                     <div class="p-4 pb-0 text-gray-900 md:pb-4 dark:text-white">
                                         <ul class="space-y-4" aria-labelledby="mega-menu-dropdown4-button">
                                             <li>
-                                                <a href="#"
+                                                <a href="./html/discussions.html"
                                                     class="text-wihte-950 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500">
                                                     Discussions
                                                 </a>
@@ -173,11 +175,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex items-center md:order-2 ">
-                    <div class="flex items-center md:order-2 ">
+                <div class="flex items-center md:order-2">
+                    <div class="flex items-center md:order-2 px-4">
                         <button type="button" data-dropdown-toggle="language-dropdown-menu"
-                            class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white-900 dark:text-white rounded-lg cursor-pointer hover:bg-blue-900 dark:hover:bg-gray-700 dark:hover:text-white">
-                            <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            class="hover:bg-blue-800 text-white-800 font-medium py-2 px-4 rounded-lg inline-flex items-center"
+                            aria-controls="mega-menu" aria-expanded="false">
+                            <svg class="w-5 h-5 mr-2 rounded-lg " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
                                 <path fill="#b22234" d="M0 0h7410v3900H0z" />
                                 <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff"
@@ -213,7 +216,7 @@
                             <ul class="py-2 font-medium" role="none">
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-800 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
                                         <div class="inline-flex items-center text-white">
                                             <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full mr-2"
@@ -241,7 +244,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-800 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
                                         <div class="inline-flex items-center text-white">
                                             <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
@@ -257,7 +260,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-800 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
                                         <div class="inline-flex items-center text-white">
                                             <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
@@ -275,7 +278,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-800 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
                                         <div class="inline-flex items-center text-white">
                                             <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
@@ -338,10 +341,13 @@
                     Welcome</h1>
                 <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
                     Millions of movies, TV shows and people to discover. Explore now.</p>
-                <form >
+                <form   style="position: relative;"  >
                     <label for="default-search"
                         class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-                    <div class="relative">
+
+
+
+                    <div  class="relative">
                         <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
                             <svg aria-hidden="true" class="w-5 h-5 text-wihte-950 dark:text-gray-400" fill="none"
                                 stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -349,11 +355,12 @@
                                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                             </svg>
                         </div>
-                        <input type="search" id="default-search"
+                        <input
+                        type="search" id="default-search"
                             class="flex w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                             placeholder="Search for a movie, tv show, person..." required>
                         <button type="submit"
-                            class="text-white absolute right-2.5 bottom-2.5 bg-blue-500 hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                            class="text-white absolute right-2.5 bottom-2.5 bg-blue-800 hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                     </div>
                 </form>
             </div>

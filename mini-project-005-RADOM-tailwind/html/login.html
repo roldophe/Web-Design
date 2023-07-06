@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="sticky top-0">
+    <header class="sticky top-0 z-50">
         <!-- menu Start -->
         <nav class="bg-blue-950 border-gray-200 dark:bg-gray-900 text-white">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-3">
@@ -177,8 +177,9 @@
                 <div class="flex items-center md:order-2 ">
                     <div class="flex items-center md:order-2 ">
                         <button type="button" data-dropdown-toggle="language-dropdown-menu"
-                            class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white-900 dark:text-white rounded-lg cursor-pointer hover:bg-blue-900 dark:hover:bg-gray-700 dark:hover:text-white">
-                            <svg class="w-5 h-5 mr-2 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            class=" text-white-800 font-medium py-2 px-4 rounded-lg inline-flex items-center"
+                            aria-controls="mega-menu" aria-expanded="false">
+                            <svg class="w-5 h-5 mr-2 rounded-lg " aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
                                 <path fill="#b22234" d="M0 0h7410v3900H0z" />
                                 <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff"
@@ -214,9 +215,9 @@
                             <ul class="py-2 font-medium" role="none">
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700  dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
-                                        <div class="inline-flex items-center text-white">
+                                        <div class="inline-flex items-center text-grey-300">
                                             <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full mr-2"
                                                 xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us"
                                                 viewBox="0 0 512 512">
@@ -242,9 +243,9 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700  dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
-                                        <div class="inline-flex items-center text-white">
+                                        <div class="inline-flex items-center text-grey-300">
                                             <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de"
                                                 viewBox="0 0 512 512">
@@ -258,9 +259,9 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700  dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
-                                        <div class="inline-flex items-center text-white">
+                                        <div class="inline-flex items-center text-grey-300">
                                             <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it"
                                                 viewBox="0 0 512 512">
@@ -276,9 +277,9 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-900 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
+                                        class="block px-4 py-2 text-sm text-gray-700  dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                                         role="menuitem">
-                                        <div class="inline-flex items-center text-white">
+                                        <div class="inline-flex items-center text-grey-300">
                                             <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true"
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn"
@@ -308,9 +309,9 @@
                     </div>
                     <div class="flex items-center md:order-2">
                         <a href="./login.html"
-                            class="text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Login</a>
+                            class="text-white  focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Login</a>
                         <a href="./signup.html"
-                            class="text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign
+                            class="text-white  focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign
                             up</a>
                         <button data-collapse-toggle="mega-menu" type="button"
                             class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -366,7 +367,7 @@
                         conditions</a></label>
             </div>
             <button type="submit"
-                class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register
+                class="text-white bg-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register
                 new account</button>
         </form>
 
